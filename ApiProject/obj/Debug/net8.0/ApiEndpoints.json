@@ -1,0 +1,83 @@
+[
+  {
+    "ContainingType": "ApiProject.Controllers.CriminalController",
+    "Method": "AddUser",
+    "RelativePath": "api/Criminal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personalEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nameCriminal",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nickName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fatherName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MotherName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Adjective",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "imageCriminal",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "phoneNumberCriminal",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "facebookCriminalURL",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DescriptionOfCriminal",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address.Governorate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address.city",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address.village",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address.district",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "HMfz6lwoYPZSm0TraXbVeDFVCqI0S55CIc8QH7L5aHY=",
+  "Source": "ApiProject",
+  "BasePath": "_content/ApiProject",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ApiProject\\wwwroot",
+      "Source": "ApiProject",
+      "ContentRoot": "D:\\TechStream Projects\\DataOfCriminals\\ApiProject\\ApiProject\\wwwroot\\",
+      "BasePath": "_content/ApiProject",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

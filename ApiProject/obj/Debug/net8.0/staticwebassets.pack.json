@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\TechStream Projects\\DataOfCriminals\\ApiProject\\ApiProject\\wwwroot\\Images\\string.png",
+      "PackagePath": "staticwebassets\\Images\\string.png"
+    },
+    {
+      "Id": "D:\\TechStream Projects\\DataOfCriminals\\ApiProject\\ApiProject\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\TechStream Projects\\DataOfCriminals\\ApiProject\\ApiProject\\wwwroot\\logo.png",
+      "PackagePath": "staticwebassets\\logo.png"
+    },
+    {
+      "Id": "D:\\TechStream Projects\\DataOfCriminals\\ApiProject\\ApiProject\\wwwroot\\play.html",
+      "PackagePath": "staticwebassets\\play.html"
+    },
+    {
+      "Id": "D:\\TechStream Projects\\DataOfCriminals\\ApiProject\\ApiProject\\wwwroot\\script.js",
+      "PackagePath": "staticwebassets\\script.js"
+    },
+    {
+      "Id": "D:\\TechStream Projects\\DataOfCriminals\\ApiProject\\ApiProject\\wwwroot\\styles.css",
+      "PackagePath": "staticwebassets\\styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ApiProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ApiProject.props",
+      "PackagePath": "build\\ApiProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ApiProject.props",
+      "PackagePath": "buildMultiTargeting\\ApiProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ApiProject.props",
+      "PackagePath": "buildTransitive\\ApiProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

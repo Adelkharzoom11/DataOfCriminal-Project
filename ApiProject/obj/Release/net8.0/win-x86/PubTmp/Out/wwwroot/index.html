@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نموذج بيانات المجرم</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- الهيدر -->
+    <header class="header">
+        <div class="header-content">
+            <h1 class="title">نموذج بيانات المجرم</h1>
+            <img src="logo.png" alt="Logo" class="logo">
+        </div>
+    </header>
+
+    <!-- المحتوى الرئيسي -->
+    <main class="main-content">
+        <div class="form-container">
+            <form id="criminalForm" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="personalEmail">البريد الإلكتروني الشخصي :</label>
+                    <input type="email" id="personalEmail" name="personalEmail" placeholder="أدخل البريد الإلكتروني الخاص بك">
+                </div>
+
+                <div class="form-group">
+                    <label for="nameCriminal">الاسم والكنية للمجرم:<span class="required">*</span></label>
+                    <input type="text" id="nameCriminal" name="nameCriminal" placeholder="أدخل اسم المجرم" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="nickName">اللقب:</label>
+                    <input type="text" id="nickName" name="nickName" placeholder="أدخل اللقب للمجرم">
+                </div>
+
+                <div class="form-group">
+                    <label for="fatherName">اسم الأب:</label>
+                    <input type="text" id="fatherName" name="fatherName" placeholder="أدخل اسم الأب للمجرم">
+                </div>
+
+                <div class="form-group">
+                    <label for="MotherName">اسم الأم:</label>
+                    <input type="text" id="MotherName" name="MotherName" placeholder="أدخل اسم الأم للمجرم">
+                </div>
+
+                <div class="form-group">
+                    <label for="Adjective">صفة المجرم (ضابط - ملازم - مدني ...):</label>
+                    <input type="text" id="Adjective" name="Adjective" placeholder="أدخل الصفة">
+                </div>
+
+                <div class="form-group">
+                    <label for="imageCriminal">صورة المجرم إن وجد:</label>
+                    <input type="file" id="imageCriminal" name="imageCriminal" accept="image/png, image/jpeg">
+                </div>
+
+                <div class="form-group">
+                    <label for="phoneNumberCriminal">رقم الهاتف:</label>
+                    <input type="text" id="phoneNumberCriminal" name="phoneNumberCriminal" placeholder="أدخل رقم الهاتف للمجرم">
+                </div>
+
+                <div class="form-group">
+                    <label for="facebookCriminalURL">رابط الفيسبوك لصفحة المجرم:</label>
+                    <input type="url" id="facebookCriminalURL" name="facebookCriminalURL" placeholder="أدخل رابط الفيسبوك لصفحة المجرم">
+                </div>
+
+                <div class="form-group">
+                    <label for="DescriptionOfCriminal">وصف عن أعمال المجرم (العمل التشبيحي - المكان - التاريخ):</label>
+                    <textarea id="DescriptionOfCriminal" name="DescriptionOfCriminal" placeholder="أدخل وصف مناسب"></textarea>
+                </div>
+
+                <h3>تفاصيل عنوان المجرم</h3>
+
+                <div class="form-group">
+                    <label for="Governorate">المحافظة:</label>
+                    <input type="text" id="Governorate" name="Address.Governorate" placeholder="أدخل المحافظة">
+                </div>
+
+                <div class="form-group">
+                    <label for="city">المدينة:</label>
+                    <input type="text" id="city" name="Address.city" placeholder="أدخل المدينة">
+                </div>
+
+                <div class="form-group">
+                    <label for="village">القرية:</label>
+                    <input type="text" id="village" name="Address.village" placeholder="أدخل القرية">
+                </div>
+
+                <div class="form-group">
+                    <label for="district">الحي:</label>
+                    <input type="text" id="district" name="Address.district" placeholder="أدخل الحي">
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    <span>إرسال</span>
+                    <span class="spinner" style="display: none;"></span>
+                </button>
+            </form>
+        </div>
+    </main>
+
+    <!-- الفوتر -->
+    <footer class="footer">
+        <div class="footer-content">
+            <img src="logo.png" alt="Logo" class="footer-logo">
+            <div class="contact-info">
+                <p><strong>للتواصل معنا:</strong></p>
+                <p><a href="mailto:techstream.963@gmail.com">البريد الإلكتروني: techstream.963@gmail.com</a></p>
+                <p><a href="https://www.facebook.com/khrzoom.adel/" target="_blank">صفحة الفيسبوك: facebook.com/khrzoom.adel/</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
